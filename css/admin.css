@@ -1,0 +1,15 @@
+/* Estilos utilizados en modulo administrador*/
+
+.encabezadoDetalleUsuario{
+background: #CBDDEA;/*#0079a4;*/
+font-weight: 700;
+/*color: white;*/
+border: 1px solid #F0F2F3;/*#ddd;*/
+}
+
+.encabezadoClave{
+background: #F5D0A9;/*#FAAC58;*/
+font-weight: 700;
+/*color: white;*/
+border: 1px solid #F0F2F3;/*#ddd;*/
+}

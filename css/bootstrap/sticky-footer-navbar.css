@@ -1,0 +1,72 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+ /*body {
+  Margin bottom by footer height 
+  margin-bottom: 60px;
+}*/
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 73px;
+  background-color: #f5f5f5;
+}
+#footer {
+  margin-top: 3px;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 120px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+
+/* _________Header__________*/
+.navbar-default {
+  background-color: #fff;
+  border-color: transparent;
+}
+#login-navbar .navbar-header{
+ /* width: 20%;*/
+  /*margin: 0 40%;*/
+}
+.navbar-header {
+  height: 120px;
+  padding: 10px 0;
+}
+@media (max-width:767px){
+.navbar-header {
+  height: 80px;
+}
+body > .container {
+  padding: 80px 15px 0;
+}
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-nav {
+  margin-top:15px;
+}

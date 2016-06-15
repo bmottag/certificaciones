@@ -1,0 +1,325 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800); 
+@import url(http://fonts.googleapis.com/css?family=ORoboto+Slab:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800); 
+
+body {
+	font-family: 'Open Sans',Arial,Verdana;
+	font-size: 12px;
+	color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+  color: #5d5d5d;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #444;
+  letter-spacing:2px;
+}
+h2 {
+  font-size: 30px;
+}
+
+a:link {color: #2baae2; text-decoration: none}
+a:visited {color:#2baae2; text-decoration: none}
+a:hover {color: #e5007e; text-decoration: none;}
+a:active {color: #e5007e; text-decoration: none}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}
+
+/** Estilos CSS para QTIP ***/
+.qtipDANE{
+	font-family: 'Open Sans',Arial,Verdana;
+	font-size: 12px;
+	color: black;
+	border: 3px solid #2baae2;
+}
+
+/* _________Header__________*/
+
+.logo-login img{
+    display: block;
+    margin: 0 auto;
+}
+
+.bienvenida{
+  margin-top: 25px;
+}
+
+.usuario{
+  margin-top: 10px;
+}
+
+.usuario h2 {
+  text-align: center;
+}
+.usuario p{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  border-bottom: 1px solid  #5d5d5d;
+  padding-bottom: 1px;
+  text-align: center;
+}
+
+.cierre-sesion{
+  text-align: center;
+}
+
+.cierre-sesion a{
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 14px;
+
+}
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #5D5D5D;
+  line-height: 24px;
+  display: inline-block;
+}
+
+
+/* Container */
+
+.margin-login{
+  margin-top: 80px;
+}
+
+  /*Login form*/
+  .btn-link {
+    color: #2baae2;
+  }
+  .btn-link:focus, .btn-link:hover {
+    color: #5d5d5d;
+    text-decoration: none;
+  }
+  .btn-primary {
+    background-color: #0079a4;
+    border-color: #5d5d5d;
+  }
+
+  .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:hover {
+    background-color: #5d5d5d;
+    border-color: #474747;
+  }
+
+  .recordar-contrasena{
+    text-align: center;
+  }
+
+/* Custom Colored Panels */
+
+.huge {
+    font-size: 36px;
+}
+
+.panel-heading {
+    border-color: #cccccc;
+    color: #999999;
+    background-color: #fff;
+  }
+
+.panel-primary>.panel-heading {
+    border-color: #cccccc;
+    color: #999999;
+    background-color: #fff;
+}
+.panel-yellow, .panel-green, .panel-red, .panel-blue, .panel-primary{
+    border-color: #cccccc;
+}
+
+.panel-yellow:hover{
+  border-color: #ffcf00;
+}
+
+.panel-yellow:hover > .panel-heading {
+    border-color: #ffcf00;
+    background-color: #ffcf00;
+    color: #fff;
+}
+
+.panel-yellow > a, .panel-green > a,  .panel-red > a, .panel-blue > a  {
+    color: #4e4e4e;
+} 
+
+.panel-yellow > a:hover {
+    color: #ffcf00;
+}
+.panel-green:hover {
+    border-color: #98be2d;
+}
+
+.panel-green:hover > .panel-heading {
+    border-color: #98be2d;
+    color: #fff;
+    background-color: #98be2d;
+}
+
+.panel-green > a:hover {
+    color: #98be2d;
+}
+
+.panel-red:hover {
+    border-color: #f29c13;
+}
+
+.panel-red:hover > .panel-heading {
+    border-color: #f29c13;
+    color: #fff;
+    background-color: #f29c13;
+}
+
+.panel-red > a:hover {
+    color: #f29c13;
+}
+
+.panel-blue:hover {
+    border-color: #007a95;
+}
+
+.panel-blue:hover > .panel-heading {
+    border-color: #007a95;
+    color: #fff;
+    background-color: #007a95;
+}
+
+.panel-blue > a:hover {
+    color: #007a95;
+}
+
+.pruebaimg{
+	float: left;
+	border: 1px solid #FF0000;
+	background-image: url("../images/registro.png");
+	background-repeat: no-repeat;
+	background-position: left;	
+}
+
+/*____Footer____*/
+
+.logotipo-dane{
+  margin: 10px 0;
+}
+
+.follow-us {
+  width: 100%;
+  margin: 9% 0;
+  display: block;
+  text-align: center;
+}
+
+.follow-us a{
+  margin: 0 4%;
+}
+.contact_top{
+  margin-top: 4%;
+}
+.contact_details {
+  text-align: center;
+}
+.contact_details p {
+  font-size: 13px;
+  color: #4e4e4e;
+  margin-top: 5%;
+}
+.contact_details .fa-2x{
+  color: #4e4e4e;
+}
+/*_____Responsive media_____*/
+
+@media (min-width: 1200px) {
+  .follow-us {
+  width: 100%;
+  padding: 0 28%;
+  margin: 9% 0;
+}
+}
+
+@media (max-width: 991px) {
+  .logotipo-dane img{
+    margin:0 auto;
+    float: none;
+    display: block;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand{
+    float: none;
+   }
+  .navbar-brand img{
+    margin: 0 auto;
+   }
+
+  .bienvenida{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 30px;
+  }
+
+  .page-header h1{
+    text-align: center;
+  }
+  
+  h3 .ingreso-titulo{
+    text-align: center;
+  }
+
+  .logotipo-dane{
+    max-width: 100%;
+  }
+  .logotipo-dane img{
+    margin:0 auto;
+    float: none;
+    display: block;
+  }
+  .follow-us {
+    padding: 0 30%;
+    margin: 9% 0;
+  }
+
+  .follow-us a{
+    margin: 0 5%;
+  }
+}
+
+/* 	* Estilos utilizados en formulario de evaluacion final
+	* @author hhchavezv
+	* @since  2015oct29
+*/	
+
+legend.legendViolet{
+color: #990099;
+border-color: #990099;
+}
+
+legend.legendGreen{
+color: #009900;
+border-color: #009900;
+}
+legend.legendOrange{
+color: #CC6633;
+border-color: #CC6633;
+}
+
+/*Estilo del msj guardando*/
+.msj_guarda{
+display:none;
+/*color: green;*/
+}
+.msj_error{
+display:none;
+color: red;
+}
+.msj_advertencia
+{color:orange;
+}
